@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>DatePicker</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/vuetify@1.3.8/dist/vuetify.min.css'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+  <v-app id="inspire">
+    <div>
+      <v-layout row wrap>
+        <v-flex xs12 sm3>
+          <v-checkbox v-model="landscape" hide-details label="Landscape"></v-checkbox>
+        </v-flex>
+        <v-flex xs12 sm3>
+          <v-checkbox v-model="reactive" hide-details label="Reactive"></v-checkbox>
+        </v-flex>
+      </v-layout>
+  
+      <v-date-picker no-title v-model="picker" :landscape="landscape" :reactive="reactive" :min="nowDate" :max="getEndDate"></v-date-picker>
+    </div>
+  </v-app>
+</div>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/babel-polyfill/dist/polyfill.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/vue/dist/vue.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/vuetify@1.3.8/dist/vuetify.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

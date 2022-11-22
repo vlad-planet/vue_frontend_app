@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Export to CSV </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+  <button @click="csvExport(csvData)">Export to CSV </button>
+  <table>
+    <tr>
+      <th v-for="th in ['name', 'username/email', 'address', 'phone', 'website', 'company']">{{th}}</th>
+    </tr>
+    <tr v-for="userData in users">
+      <td>{{userData.name}}</td>
+      <td><small>{{userData.username}}<br/>{{userData.email}}</small></td>
+      <td>
+        <dl class="dl" v-for="(val,key) in userData.address">
+          <dt>{{key}}</dt>
+          <dd>: {{val}}</dd>
+        </dl>
+      </td>
+      <td>{{userData.phone}}</td>
+      <td> <a href="#">{{userData.website}}</a></td>
+      <td>
+        <dl class="dl" v-for="(val,key) in userData.company">
+          <dt>{{key}}</dt>
+          <dd>: {{val}}</dd>
+        </dl>
+      </td>
+    </tr>
+  </table>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

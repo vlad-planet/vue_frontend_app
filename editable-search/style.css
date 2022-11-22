@@ -1,0 +1,19 @@
+#app {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.VuePagination {
+  text-align: center;
+}
+
+.vue-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.glyphicon.glyphicon-eye-open {
+  width: 16px;
+  display: block;
+  margin: 0 auto;
+}

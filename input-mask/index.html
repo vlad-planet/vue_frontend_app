@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Input Mask</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app" class="container">
+  <label class="label">MaxLength 3</label>
+  <input type="text" maxlength="3" class="input">
+  
+  <label class="label">IP Address {{ip}}</label>
+  <input-mask v-model="ip" mask="###.###.###.###" masked class="input"></input-mask>
+
+<label class="label">Date {{date}}</label>
+  <input-mask v-model="date" mask="##/##/####" placeholder="mm/dd/yyyy" class="input"></input-mask>
+
+  <hr>
+
+  <h4 class="title is-4">Masks</h4>
+  
+  <label class="label">Phone {{phone}}</label>
+  <input-mask v-model="phone" mask="+55 (##) #####-####" class="input"></input-mask>
+
+<label class="label">CEP {{cep}}</label>
+  <input-mask v-model="cep" mask="#####-###" class="input"></input-mask>
+
+  <label class="label">CPF {{cpf}}</label>
+  <input-mask v-model="cpf" mask="###.###.###-##" masked class="input"></input-mask>
+
+  <label class="label">CNPJ {{cnpj}}</label>
+  <input-mask v-model="cnpj" mask="##.###.###/####-##" class="input"></input-mask>
+
+  <label class="label">Placa {{placa}}</label>
+  <input-mask v-model="placa" mask="UUU-####" class="input"></input-mask>
+
+  <label class="label">Test</label>
+  <input-mask v-model="test" mask="#.#" class="input"></input-mask>
+  
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
