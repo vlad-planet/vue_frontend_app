@@ -34,13 +34,6 @@ https://webpack.js.org/concepts/
 
 
 **************************************
- -> polyfill.min.js — Код, реализующий какую-либо функциональность, которая не поддерживается в некоторых версиях веб-браузеров.
-https://learn.javascript.ru/dom-polyfill
-
- -> vue-strap.min.js — Компоненты Bootstrap, созданные с помощью Vue.js. 
-https://yuche.github.io/vue-strap/
-
-**************************************
  -> vuetify.min.js — Cемантическая структура компонентов для Vue
 https://vuetifyjs.com/en/
 
@@ -54,3 +47,11 @@ https://www.vuescript.com/file-uploader-agent/
  -> vue-router.min.js — официальная библиотека маршрутизации для Vue.js.
 https://v3.router.vuejs.org/ru/
 
+**************************************
+ -> polyfill.min.js — Код, реализующий какую-либо функциональность, которая не поддерживается в некоторых версиях веб-браузеров.
+https://learn.javascript.ru/dom-polyfill
+
+ -> vue-strap.min.js — Компоненты Bootstrap, созданные с помощью Vue.js. 
+https://yuche.github.io/vue-strap/
+
+**************************************
