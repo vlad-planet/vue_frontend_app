@@ -34,7 +34,7 @@ https://webpack.js.org/concepts/
 
 
 **************************************
- -> polyfill.min.js — код, реализующий какую-либо функциональность, которая не поддерживается в некоторых версиях веб-браузеров.
+ -> polyfill.min.js — Код, реализующий какую-либо функциональность, которая не поддерживается в некоторых версиях веб-браузеров.
 https://learn.javascript.ru/dom-polyfill
 
  -> vue-strap.min.js — Компоненты Bootstrap, созданные с помощью Vue.js. 
@@ -44,10 +44,10 @@ https://yuche.github.io/vue-strap/
  -> vuetify.min.js — Cемантическая структура компонентов для Vue
 https://vuetifyjs.com/en/
 
- -> vue-tables-2.min.js — это многоразовый компонент таблицы данных
+ -> vue-tables-2.min.js — Многоразовый компонент таблицы данных
 https://www.vuetable.com/guide/
 
- -> vue-file-agent.umd.js — компонент загрузки файлов
+ -> vue-file-agent.umd.js — Компонент загрузки файлов
 https://www.vuescript.com/file-uploader-agent/
 
 **************************************
